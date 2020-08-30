@@ -64,6 +64,7 @@ em {
 .css {
     flex: 1;
     margin: 5% 5% 5% 5%;
+    padding-bottom: 5%;
     text-align: center;
     background-image: url("../images/background4.jpg");
     background-size: cover;
@@ -113,9 +114,10 @@ em {
 
 .link {
     padding: 0 1rem 0 1rem;
+    margin-bottom: 10%;
     color: rgb(65, 211, 255);
     text-decoration: underline;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
 }
 
 .button:hover {
