@@ -126,7 +126,6 @@ em {
 .container_2 {
     display: flex;
     margin: 0%;
-    margin-bottom: 10%;
     width: 100%;
 }
 
@@ -151,7 +150,7 @@ em {
     margin: 0 5% 5% 5%;
     padding-bottom: 5%;
     text-align: center;
-    background-image: url("../images/background4.jpg");
+    background-image: url("../images/background2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 1rem;
