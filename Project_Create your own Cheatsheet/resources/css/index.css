@@ -42,6 +42,8 @@ em {
 }
 
 /*Main Section*/
+
+    /*content section*/
 .container {
     display: flex;
     margin: 0%;
@@ -93,6 +95,7 @@ em {
     background-color: rgba(0, 0, 0, 0.568);
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .button {
@@ -118,7 +121,50 @@ em {
 .button:hover {
     background-color: black;
 }
-    
+
+    /*Usefull Links section*/
+.container_2 {
+    display: flex;
+    margin: 0%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.container_2 h2 {
+    margin-bottom: 5%;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.usefull_links {
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5% 5% 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-image: url("../images/background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    border-radius: 1%;
+}
+
+.link2 {
+    padding: 0 1rem 10% 1rem;
+    color: rgb(65, 211, 255);
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
 /*footer*/
 footer {
     width: 100%;
