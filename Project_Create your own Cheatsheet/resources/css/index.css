@@ -25,7 +25,7 @@ header {
 }
 
 header h1 {
-    padding: 3rem 1rem 1.5rem 1rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
     letter-spacing: 20px;
     text-transform: uppercase;
 }
@@ -35,6 +35,10 @@ header h3 {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1rem;
+}
+
+em {
+    font-size: 1.5rem;
 }
 
 /*Main Section*/
@@ -105,8 +109,10 @@ header h3 {
 }
 
 .link {
+    padding: 0 1rem 0 1rem;
     color: rgb(65, 211, 255);
     text-decoration: underline;
+    font-size: 0.65rem;
 }
     
 /*footer*/
