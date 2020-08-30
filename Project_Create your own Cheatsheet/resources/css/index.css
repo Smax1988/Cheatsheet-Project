@@ -114,6 +114,10 @@ em {
     text-decoration: underline;
     font-size: 0.65rem;
 }
+
+.button:hover {
+    background-color: black;
+}
     
 /*footer*/
 footer {
